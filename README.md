@@ -1,6 +1,7 @@
 #### OCR
-I have taken custom weights file from github
-link : https://drive.google.com/file/d/1EUPtbtdF0bjRtNjGv436vDY28EN5DXDH/view
+I have taken custom weights file from github....
+
+Link : https://drive.google.com/file/d/1EUPtbtdF0bjRtNjGv436vDY28EN5DXDH/view
 
 Add the above custom.weights file in the data folder.
 Run this command after that : python save_model.py --weights ./data/custom.weights --output ./checkpoints/custom-416 --input_size 416 --model yolov4 
