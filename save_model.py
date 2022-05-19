@@ -4,7 +4,7 @@ from absl.flags import FLAGS
 from core.yolov4 import YOLO, decode, filter_boxes
 import core.utils as utils
 from core.config import cfg
-# add these changes
+# add these changess
 flags.DEFINE_string('weights', './data/yolov4.weights', 'path to weights file')
 flags.DEFINE_string('output', './checkpoints/yolov4-416', 'path to output')
 flags.DEFINE_boolean('tiny', False, 'is yolo-tiny or not')
